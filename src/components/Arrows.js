@@ -5,22 +5,22 @@ const Arrows = () => {
   return (
     <div>
       <li>
-      <ul id="begin">
-          In the beginning{" "}
+        <div id="begin">
+          <ul>In the beginning</ul>
           <KeyboardArrowRight color="secondary" id="arrowRight" />
-        </ul>
-        <ul id="begin">
-          My Projects{" "}
+        </div>
+        <div id="begin">
+          <ul>Check out my technologies</ul>
           <KeyboardArrowRight color="secondary" id="arrowRight" />
-        </ul>
-        <ul id="begin">
-          View my tech{" "}
+        </div>
+        <div id="begin">
+          <ul>View my personal projects</ul>
           <KeyboardArrowRight color="secondary" id="arrowRight" />
-        </ul>
-        <ul id="begin">
-          Get in touch{" "}
+        </div>
+        <div id="begin">
+          <ul>Get in touch</ul>
           <KeyboardArrowRight color="secondary" id="arrowRight" />
-        </ul>
+        </div>
       </li>
     </div>
   );

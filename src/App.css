@@ -36,6 +36,7 @@
   position: fixed;
   color: white;
   justify-content: flex-end;
+  z-index: 1;
 }
 
 .nav li {
@@ -58,23 +59,31 @@ li {
 
 #begin {
   display: flex;
-  /* justify-content: center; */
   align-items: center;
   font-size: 20px;
   font-weight: 100;
-  transition: margin-left 0.4s, color 0.2s;
+  transition: padding-left 0.2s, color 0.2s;
   transition-timing-function: ease;
   -webkit-transition-timing-function: linear;
-  width: 300px;
-  
+  width: 400px;
 }
 
 #arrowRight {
   color: rgb(0, 236, 59);
   font-size: 30px;
+  transition: padding-left 0.2s;
+  position: static;
 }
 
-#begin:hover {
-  margin-left: 24px;
+#begin ul {
+  transition: padding-left 0.2s, color 0.2s;
+}
+
+#begin:hover ul {
+  padding-left: 30px;
   color: rgb(0, 236, 59);
+}
+
+#begin:hover #arrowRight {
+  padding-left: 20px;
 }
