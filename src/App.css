@@ -1,0 +1,20 @@
+* {
+  background-color: #222222;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+#intro {
+  /* background-color: aqua; */
+  margin: 0;
+  position: absolute;
+  margin-left: 15%;
+  -ms-transform: translateY(-80%);
+  transform: translateY(-80%);
+  top: 50%;
+  width: 500px;
+}
+
+#intro h1 {
+  font-size: 60px;
+  font-weight: 900;
+}
