@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
+import NavBar from "./components/NavBar.js";
+import Intro from "./components/Intro";
 
 class App extends Component {
   constructor(props) {
@@ -10,14 +12,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div id="intro">
-          <h1>Hey! I'm Connor.</h1>
-          <h3>Welcome to my portfolio!</h3>
-          <h5>
-            I'm a Software Engineer who's passionate about creating flawless web
-            applications with unique designs.
-          </h5>
-        </div>
+        <NavBar />
+        <Intro />
       </div>
     );
   }
