@@ -1,4 +1,6 @@
 import React from "react";
+import connor from "../images/connor1.jpg";
+import Arrows from "../components/Arrows.js"
 
 const Intro = () => {
   return (
@@ -10,6 +12,10 @@ const Intro = () => {
           I'm a Software Engineer who's passionate about creating flawless web
           applications with unique designs.
         </h5>
+        <Arrows />
+      </div>
+      <div id="prof">
+        {/* <img id="profPic" src={connor}></img> */}
       </div>
     </div>
   );

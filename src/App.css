@@ -19,6 +19,17 @@
   font-weight: 900;
 }
 
+#prof {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 15%;
+}
+
+#profPic {
+  height: 400px;
+  width: 400px;
+}
+
 .nav {
   display: flex;
   flex-direction: row;
@@ -36,6 +47,34 @@ li {
   list-style: none;
 }
 
-ul :hover {
-  text-decoration: underline;
+#navItem:hover {
+  color: #6b6b6b;
+}
+#navItem:hover:after {
+  opacity: 1;
+  visibility: visible;
+  height: 100%;
+}
+
+#begin {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  font-size: 20px;
+  font-weight: 100;
+  transition: margin-left 0.4s, color 0.2s;
+  transition-timing-function: ease;
+  -webkit-transition-timing-function: linear;
+  width: 300px;
+  
+}
+
+#arrowRight {
+  color: rgb(0, 236, 59);
+  font-size: 30px;
+}
+
+#begin:hover {
+  margin-left: 24px;
+  color: rgb(0, 236, 59);
 }
