@@ -1,7 +1,9 @@
 import React, { Component } from "react";
+import { Route } from "react-router-dom";
 import "./App.css";
 import NavBar from "./components/NavBar.js";
-import Intro from "./components/Intro";
+import Intro from "./components/Intro.js";
+import About from "./components/About.js";
 
 class App extends Component {
   constructor(props) {
@@ -13,7 +15,8 @@ class App extends Component {
     return (
       <div className="App">
         <NavBar />
-        <Intro />
+        <Route exact path="/" component={Intro} />
+        <Route exact path="/about" component={About} />
       </div>
     );
   }

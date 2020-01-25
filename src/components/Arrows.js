@@ -4,24 +4,24 @@ import KeyboardArrowRight from "@material-ui/icons/KeyboardArrowRight";
 const Arrows = () => {
   return (
     <div>
-      <li>
+      <ul>
         <div id="begin">
-          <ul>In the beginning</ul>
+          <a href="/about">In the beginning</a>
           <KeyboardArrowRight color="secondary" id="arrowRight" />
         </div>
         <div id="begin">
-          <ul>Check out my technologies</ul>
+          <a>Check out my technologies</a>
           <KeyboardArrowRight color="secondary" id="arrowRight" />
         </div>
         <div id="begin">
-          <ul>View my personal projects</ul>
+          <a>View my personal projects</a>
           <KeyboardArrowRight color="secondary" id="arrowRight" />
         </div>
         <div id="begin">
-          <ul>Get in touch</ul>
+          <a>Get in touch</a>
           <KeyboardArrowRight color="secondary" id="arrowRight" />
         </div>
-      </li>
+      </ul>
     </div>
   );
 };

@@ -5,7 +5,9 @@ const NavBar = () => {
     <header>
       <nav>
         <ul id="nav">
-          <li className="navItem">About</li>
+          <a href="/about" className="navItem">
+            About
+          </a>
           <li className="navItem">Projects</li>
           <li className="navItem">Technologies</li>
           <li className="navItem">Contact</li>
