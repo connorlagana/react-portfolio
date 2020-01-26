@@ -221,3 +221,30 @@ ul {
   padding-left: 50px;
   color: rgb(0, 236, 59);
 }
+
+#contactPics {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.contactPic {
+  margin: 10px;
+}
+
+.contactPicImage {
+  height: 100px;
+  width: 100px;
+}
+
+#contactsBottomPage {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+#emailBlock {
+  font-size: 30px;
+}
