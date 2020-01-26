@@ -35,8 +35,10 @@
   flex-direction: row;
   position: fixed;
   color: white;
-  justify-content: flex-end;
+  justify-content: flex-start;
   z-index: 1;
+  margin: 0;
+  width: 100vw;
 }
 
 ul {
@@ -130,4 +132,92 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#indProj {
+  height: 100vh;
+  width: 100vw;
+}
+
+#projTitle {
+  color: white;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+}
+#indRectangle {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+#indProjUnderlying {
+  width: 30vh;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+}
+
+#aProj {
+  background-color: white;
+  text-decoration: none;
+  color: rgb(0, 236, 59);
+  text-align: center;
+}
+
+#projBio {
+  background-color: white;
+  text-align: center;
+}
+
+#indProjImages {
+  margin: 10px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#image1 {
+  height: 70vh;
+  width: 80vh;
+  object-fit: cover;
+  margin: 5px;
+}
+#image2 {
+  height: 70vh;
+  width: 30vh;
+  object-fit: cover;
+}
+
+#projectsTitle {
+  color: white;
+  display: flex;
+  align-items: center;
+  padding-top: 60px;
+  padding-left: 60px;
+  font-size: 24px;
+  text-decoration: none;
+  transition: 0.4s ease;
+}
+
+#projectsH1 {
+  padding-left: 20px;
+}
+
+#projectsTitle:hover {
+  padding-left: 50px;
+  color: rgb(0, 236, 59);
 }

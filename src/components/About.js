@@ -2,12 +2,6 @@ import React, { Component } from "react";
 import KeyboardBackspace from "@material-ui/icons/KeyboardBackspace";
 
 class About extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {};
-  }
-
   render() {
     return (
       <div id="aboutOuter">
@@ -33,9 +27,7 @@ class About extends Component {
               backend. This allows me play around with new technology and gives
               me a better understanding of the digital industry as a whole. It's
               also incredibly fun! If I'm not desiging or coding something I'll
-              be hanging off the side of a mountain somewhere or exploring the
-              ruins of an old castle. If that sounds like someone you’d like to
-              collaborate with then get in touch.
+              be messing around with music production or analyzing stocks!
             </div>
           </div>
         </div>

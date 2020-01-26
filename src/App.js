@@ -4,6 +4,9 @@ import "./App.css";
 import NavBar from "./components/NavBar.js";
 import Intro from "./components/Intro.js";
 import About from "./components/About.js";
+import Projects from "./components/Projects.js";
+import Contact from "./components/Contact.js";
+import Technologies from "./components/Technologies.js";
 
 class App extends Component {
   constructor(props) {
@@ -17,6 +20,9 @@ class App extends Component {
         <NavBar />
         <Route exact path="/" component={Intro} />
         <Route exact path="/about" component={About} />
+        <Route exact path="/projects" component={Projects} />
+        <Route exact path="/contact" component={Contact} />
+        <Route exact path="/Technologies" component={Technologies} />
       </div>
     );
   }

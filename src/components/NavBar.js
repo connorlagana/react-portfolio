@@ -8,9 +8,15 @@ const NavBar = () => {
           <a href="/about" className="navItem">
             About
           </a>
-          <li className="navItem">Projects</li>
-          <li className="navItem">Technologies</li>
-          <li className="navItem">Contact</li>
+          <a href="/technologies" className="navItem">
+            Technologies
+          </a>
+          <a href="/projects" className="navItem">
+            Projects
+          </a>
+          <a href="/contact" className="navItem">
+            Contact
+          </a>
         </ul>
       </nav>
     </header>
