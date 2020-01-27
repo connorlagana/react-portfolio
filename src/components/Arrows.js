@@ -10,7 +10,7 @@ const Arrows = () => {
           <KeyboardArrowRight color="secondary" id="arrowRight" />
         </div>
         <div id="begin">
-          <a>Check out my technologies</a>
+          <a href="/technologies">Check out my technologies</a>
           <KeyboardArrowRight color="secondary" id="arrowRight" />
         </div>
         <div id="begin">
@@ -18,7 +18,7 @@ const Arrows = () => {
           <KeyboardArrowRight color="secondary" id="arrowRight" />
         </div>
         <div id="begin">
-          <a>Get in touch</a>
+          <a href="/contact">Get in touch</a>
           <KeyboardArrowRight color="secondary" id="arrowRight" />
         </div>
       </ul>

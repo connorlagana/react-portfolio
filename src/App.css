@@ -112,7 +112,7 @@ ul {
 
 #aboutFirst {
   color: rgb(255, 255, 255);
-  height: 40vh;
+  height: 80vh;
   width: 40vw;
   display: flex;
   flex-direction: column;
@@ -127,11 +127,17 @@ ul {
 }
 #aboutSecond {
   color: rgb(255, 255, 255);
-  height: 40vh;
+  height: 80vh;
   width: 40vw;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  overflow: scroll;
+}
+
+#aboutSecond p {
+  margin: 10px;
 }
 
 #projects {
@@ -247,4 +253,57 @@ ul {
 
 #emailBlock {
   font-size: 30px;
+}
+
+#technologies {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 80vw;
+  flex-wrap: wrap;
+}
+#indTech {
+  text-align: center;
+  color: white;
+  margin: 10px;
+}
+
+#techLogo {
+  height: 150px;
+  width: 150px;
+  transition: 0.4s ease;
+  z-index: 10;
+}
+#techLogo:hover {
+  height: 200px;
+  width: 200px;
+}
+
+#IndT {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  #about {
+    flex-direction: column;
+  }
+
+  #aboutFirst {
+    width: 100vw;
+    height: 10vh;
+    padding-top: 200px;
+  }
+
+  #aboutSecond {
+    width: 100vw;
+    height: 90vh;
+    font: 20px;
+  }
+
+  #nav {
+    overflow: scroll;
+  }
 }
