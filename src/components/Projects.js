@@ -26,7 +26,7 @@ class Projects extends Component {
             "Foodstagram is a fullstack web app that I created using React for the front end and Node.js/Express for the back end."
         },
         {
-          title: "Keens",
+          title: "Keen's Steakhouse",
           github: "https://github.com/connorlagana/keens",
           image1: keens1,
           image2: keens2,
