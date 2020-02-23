@@ -14,9 +14,9 @@ class About extends Component {
           </div>
           <div id="aboutSecond">
             <p>
-              I'm a Front End Developer currently working for Odega Studios. My
-              role here allows me to work with various designs and bring them to
-              life with a creative process.
+              I'm a front end and mobile developer currently working for Odega
+              Studios. My role here allows me to work with various designs and
+              bring them to life with a creative process.
             </p>
             <p>
               I started learning computer science in highschool with a group of

@@ -3,6 +3,33 @@
 
   font-family: "Poppins", sans-serif;
 }
+
+#bigIntro {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#leftIntro {
+  width: 50vw;
+  height: 100vh;
+}
+
+#rightIntro {
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#rightIntro img {
+  height: 90vh;
+  width: 30vw;
+  object-fit: cover;
+}
+
 #intro {
   margin: 0;
   position: absolute;

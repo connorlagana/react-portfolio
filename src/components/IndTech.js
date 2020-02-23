@@ -26,6 +26,10 @@ class IndProj extends Component {
           image: jsLogo
         },
         {
+          name: "Swift",
+          image: swiftLogo
+        },
+        {
           name: "HTML",
           image: htmlLogo
         },
@@ -33,10 +37,7 @@ class IndProj extends Component {
           name: "CSS",
           image: cssLogo
         },
-        {
-          name: "Swift",
-          image: swiftLogo
-        },
+
         {
           name: "React",
           image: reactLogo

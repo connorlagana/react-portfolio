@@ -9,6 +9,8 @@ import sendit1 from "../images/ProjectImages/Sendit/sendit1.png";
 import sendit2 from "../images/ProjectImages/Sendit/sendit2.png";
 import keens1 from "../images/ProjectImages/Keens/keens1.png";
 import keens2 from "../images/ProjectImages/Keens/keens2.png";
+import tesla1 from "../images/ProjectImages/Tesla/tesla1.png";
+import tesla2 from "../images/ProjectImages/Tesla/tesla2.png";
 
 import IndProj from "./IndProj.js";
 
@@ -17,6 +19,14 @@ class Projects extends Component {
     super(props);
     this.state = {
       projects: [
+        {
+          title: "Tesla Remix",
+          github: "https://github.com/connorlagana/TeslaPretend",
+          image1: tesla1,
+          image2: tesla2,
+          bio:
+            "My personal remake of Tesla's website. Using React as a frontend and Ruby on Rails as a backend, users are able to create an account and add customized vehicles to their account"
+        },
         {
           title: "Foodstagram",
           github: "https://github.com/connorlagana/Project-3",
