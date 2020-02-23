@@ -18,9 +18,9 @@ const Intro = () => {
         </div>
       </div>
       <div id="rightIntro">
-        {/* <img id="profPic" src={connor}></img> */}
+        <img id="profPic" src={connor}></img>
         <a href="https://www.youtube.com/watch?v=bo2m4eTrKQ4">
-          <img src={bruceJenner}></img>
+          {/* <img src={bruceJenner}></img> */}
         </a>
       </div>
     </div>
