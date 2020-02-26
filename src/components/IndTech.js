@@ -15,6 +15,8 @@ import gitLogo from "../images/logos/gitLogo.png";
 import githubLogo from "../images/logos/githubLogo.png";
 import jsonLogo from "../images/logos/jsonLogo.png";
 
+import Fade from "react-reveal/Fade";
+
 class IndProj extends Component {
   constructor(props) {
     super(props);
@@ -87,8 +89,12 @@ class IndProj extends Component {
       <div id="technologies">
         {this.state.techs.map((tech, key) => (
           <div id="indTech">
-            <h3>{tech.name}</h3>
-            <img src={tech.image} id="techLogo" />
+            <Fade left cascade>
+              <h3>{tech.name}</h3>
+            </Fade>
+            <Fade>
+              <img src={tech.image} id="techLogo" />
+            </Fade>
           </div>
         ))}
       </div>

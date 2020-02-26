@@ -5,6 +5,9 @@ const NavBar = () => {
     <header>
       <nav>
         <ul id="nav">
+        <a href="/" className="navItem">
+            Home
+          </a>
           <a href="/about" className="navItem">
             About
           </a>
