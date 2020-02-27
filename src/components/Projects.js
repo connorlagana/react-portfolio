@@ -24,7 +24,7 @@ class Projects extends Component {
         {
           title: "Tesla Remix",
           github: "https://github.com/connorlagana/TeslaPretend",
-          deploy: "http://stockify.surge.sh",
+          deploy: "http://tesla-remix.surge.sh",
           image1: tesla1,
           image2: tesla2,
           bio:
@@ -33,7 +33,7 @@ class Projects extends Component {
         {
           title: "Foodstagram",
           github: "https://github.com/connorlagana/Project-3",
-          deploy: "http://stockify.surge.sh",
+          deploy: "http://raysp3.surge.sh",
           image1: foodstagram1,
           image2: foodstagram2,
           bio:
@@ -42,7 +42,7 @@ class Projects extends Component {
         {
           title: "Keen's Steakhouse",
           github: "https://github.com/connorlagana/keens",
-          deploy: "http://stockify.surge.sh",
+          deploy: "http://keens.surge.sh",
           image1: keens1,
           image2: keens2,
           bio:
@@ -51,7 +51,7 @@ class Projects extends Component {
         {
           title: "Sendit",
           github: "https://github.com/connorlagana/project2",
-          deploy: "http://stockify.surge.sh",
+          deploy: "http://senditt.surge.sh",
           image1: sendit1,
           image2: sendit2,
           bio:
