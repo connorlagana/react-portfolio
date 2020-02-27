@@ -1,6 +1,6 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
-import Zoom from 'react-reveal/Zoom';
+import Zoom from "react-reveal/Zoom";
 
 const IndProj = props => {
   return (
@@ -13,9 +13,13 @@ const IndProj = props => {
           <div id="indRectangle">
             <Fade left>
               <div id="indProjUnderlying">
+                <a id="aWeb" href={proj.deploy}>
+                  {proj.title} Website
+                </a>
                 <a id="aProj" href={proj.github}>
                   Click Here to visit {proj.title}'s Github
                 </a>
+
                 <p id="projBio">{proj.bio}</p>
               </div>
             </Fade>

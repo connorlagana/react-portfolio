@@ -345,3 +345,18 @@ ul {
     overflow: scroll;
   }
 }
+
+#aWeb {
+  background-color: white;
+  text-decoration: none;
+  color: black;
+  font-size: 1.2vw;
+  margin-bottom: 3vw;
+  border-bottom: solid;
+  border-width: 1px;
+  /* transition: all 0.1s; */
+}
+
+#aWeb:hover {
+  border-width: 2px;
+}
