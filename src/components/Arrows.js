@@ -4,7 +4,7 @@ import Fade from "react-reveal/Fade";
 
 const Arrows = () => {
   return (
-    <div>
+    <div className="arrows">
       <Fade>
         <ul>
           <div id="begin">

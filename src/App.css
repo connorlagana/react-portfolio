@@ -58,8 +58,11 @@
 }
 
 #intro h5 {
-  width: 30vw;
-  text-align: center;
+  width: 20vw;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  word-break: normal;
 }
 
 #prof {
@@ -74,8 +77,9 @@
   position: fixed;
   color: white;
   justify-content: flex-start;
+  align-items: center;
   z-index: 1;
-  margin: 0;
+  margin: 1vh;
   width: 100vw;
 }
 
@@ -87,12 +91,12 @@ ul {
 .navItem {
   transition: 0.3s ease;
   color: rgb(255, 255, 255);
-  font-size: 20px;
+  font-size: 2vh;
   text-decoration: none;
   border-top: 4px solid #222222;
   border-bottom: 4px solid #222222;
   /* padding: 20px 0; */
-  margin: 0 20px;
+  margin: 0 2vh;
 }
 
 .navItem:hover {
@@ -105,16 +109,17 @@ ul {
 #begin {
   display: flex;
   align-items: center;
-  font-size: 20px;
+  font-size: 1.4vw;
   font-weight: 100;
   transition: padding-left 0.2s, color 0.2s;
   -webkit-transition-timing-function: linear;
-  width: 400px;
+  width: 30vw;
+  /* background-color: antiquewhite; */
 }
 
 #arrowRight {
   color: rgb(0, 236, 59);
-  font-size: 30px;
+  font-size: 2.5vh;
   transition: padding-left 0.2s;
   position: static;
 }
@@ -126,12 +131,12 @@ ul {
 }
 
 #begin:hover a {
-  padding-left: 30px;
+  padding-left: 2.5vh;
   color: rgb(0, 236, 59);
 }
 
 #begin:hover #arrowRight {
-  padding-left: 20px;
+  padding-left: 2vh;
 }
 #aboutOuter {
   height: 100vh;
@@ -324,6 +329,21 @@ ul {
   align-items: center;
 }
 
+#aWeb {
+  background-color: white;
+  text-decoration: none;
+  color: black;
+  font-size: 1.2vw;
+  margin-bottom: 3vw;
+  border-bottom: solid;
+  border-width: 1px;
+  /* transition: all 0.1s; */
+}
+
+#aWeb:hover {
+  border-width: 2px;
+}
+
 @media only screen and (max-width: 600px) {
   #about {
     flex-direction: column;
@@ -341,22 +361,47 @@ ul {
     font: 20px;
   }
 
-  #nav {
-    overflow: scroll;
+  #bigIntro {
+    /* flex-direction: column; */
   }
-}
 
-#aWeb {
-  background-color: white;
-  text-decoration: none;
-  color: black;
-  font-size: 1.2vw;
-  margin-bottom: 3vw;
-  border-bottom: solid;
-  border-width: 1px;
-  /* transition: all 0.1s; */
-}
+  #leftIntro {
+    height: 50vh;
+    width: 100vw;
+    background-color: red;
+  }
 
-#aWeb:hover {
-  border-width: 2px;
+  #intro {
+    background-color: yellow;
+  }
+
+  #intro h1 {
+    font-size: 1vw;
+    padding: 0;
+    margin: 0;
+  }
+
+  #rightIntro {
+    height: 50vh;
+    width: 100vw;
+  }
+
+  .arrows {
+    width: 50vw;
+  }
+
+  #nav {
+  }
+
+  .navItem {
+    width: 15vw;
+    height: 4vh;
+    font-size: 2.3vw;
+    background-color: rgb(6, 40, 70);
+    text-align: center;
+    margin: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
