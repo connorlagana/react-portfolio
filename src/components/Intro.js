@@ -1,7 +1,6 @@
 import React from "react";
 import connor from "../images/connor1.jpg";
 import Arrows from "../components/Arrows.js";
-import bruceJenner from "../images/bruceJenner.jpeg";
 import Fade from "react-reveal/Fade";
 
 const Intro = () => {
@@ -24,9 +23,6 @@ const Intro = () => {
       </div>
       <div id="rightIntro">
         <img id="profPic" src={connor}></img>
-        <a href="https://www.youtube.com/watch?v=bo2m4eTrKQ4">
-          {/* <img src={bruceJenner}></img> */}
-        </a>
       </div>
     </div>
   );
