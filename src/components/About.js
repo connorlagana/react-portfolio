@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import KeyboardBackspace from "@material-ui/icons/KeyboardBackspace";
 import Fade from "react-reveal/Fade";
+import { Link } from "react-router-dom";
 
 class About extends Component {
   render() {
@@ -10,9 +11,9 @@ class About extends Component {
           <div id="aboutFirst">
             <Fade>
               <div>About</div>
-              <a href="/">
+              <Link to="/">
                 <KeyboardBackspace id="backArrow" />
-              </a>
+              </Link>
             </Fade>
           </div>
 

@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import KeyboardBackspace from "@material-ui/icons/KeyboardBackspace";
 
+import { Link } from "react-router-dom";
+
 import foodstagram1 from "../images/ProjectImages/Foodstagram/foodstagram1.png";
 import foodstagram2 from "../images/ProjectImages/Foodstagram/foodstagram2.png";
 import instatag1 from "../images/ProjectImages/Instatag/instatag1.png";
@@ -74,7 +76,7 @@ class Projects extends Component {
           image2: stockify2,
           bio:
             "Sendit takes a finance;/stock API and displays the content using React. Other frameworks used in Sendit include Charts.js"
-        },
+        }
       ]
     };
   }
@@ -82,10 +84,10 @@ class Projects extends Component {
     return (
       <div id="projectsPage">
         <div id="projectsTitle">
-          <a href="/" id="projectsTitle">
+          <Link to="/" id="projectsTitle">
             <KeyboardBackspace id="backArrow" />
             <h1 id="projectsH1">Projects</h1>
-          </a>
+          </Link>
         </div>
         <IndProj projects={this.state.projects} />
       </div>
