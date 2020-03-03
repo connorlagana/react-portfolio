@@ -37,23 +37,16 @@
 
 #intro {
   margin: 0;
-  /* position: absolute;
-  margin-left: 15%;
-  -ms-transform: translateY(-80%);
-  transform: translateY(-80%); */
-  /* top: 50%; */
-  /* width: 500px; */
   color: white;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
-  /* background-color: aquamarine; */
   height: 50vh;
 }
 
 #intro h1 {
-  font-size: 60px;
+  font-size: 3.4vw;
   font-weight: 900;
 }
 
@@ -95,7 +88,6 @@ ul {
   text-decoration: none;
   border-top: 4px solid #222222;
   border-bottom: 4px solid #222222;
-  /* padding: 20px 0; */
   margin: 0 2vh;
 }
 
@@ -168,7 +160,7 @@ ul {
   font-size: 40px;
   color: rgb(0, 236, 59);
 }
-#aboutSecond {
+.aboutSecond {
   color: rgb(255, 255, 255);
   height: 80vh;
   width: 40vw;
@@ -176,11 +168,12 @@ ul {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  overflow: scroll;
 }
 
-#aboutSecond p {
-  margin: 10px;
+.aboutSecond div {
+  background-color: antiquewhite;
+  word-wrap: normal;
+  -ms-word-wrap: normal;
 }
 
 #projects {
