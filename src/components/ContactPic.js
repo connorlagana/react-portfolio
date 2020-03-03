@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import githubLogo from "../images/ContactPics/github.png";
 import linkedin from "../images/ContactPics/linkedin.png";
+import { Link } from "react-router-dom";
 
 class ContactPic extends Component {
   constructor(props) {
@@ -25,9 +26,9 @@ class ContactPic extends Component {
       <div id="contactPics">
         {this.state.pics.map((pic, key) => (
           <div class="contactPic">
-            <a href={pic.link}>
+            <Link to={pic.link}>
               <img src={pic.image} class="contactPicImage" />
-            </a>
+            </Link>
           </div>
         ))}
       </div>

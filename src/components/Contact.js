@@ -1,16 +1,17 @@
 import React, { Component } from "react";
 import KeyboardBackspace from "@material-ui/icons/KeyboardBackspace";
 import ContactPic from "../components/ContactPic.js";
+import { Link } from "react-router-dom";
 
 class Contact extends Component {
   render() {
     return (
       <div id="contactPage">
         <div id="projectsTitle">
-          <a href="/" id="projectsTitle">
+          <Link to="/" id="projectsTitle">
             <KeyboardBackspace id="backArrow" />
             <h1 id="projectsH1">Contact</h1>
-          </a>
+          </Link>
         </div>
         <div id="contactsBottomPage">
           <h1>Get in touch with me!</h1>

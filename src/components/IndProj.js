@@ -1,6 +1,7 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
 import Zoom from "react-reveal/Zoom";
+import { Link } from "react-router-dom";
 
 const IndProj = props => {
   return (
@@ -13,12 +14,12 @@ const IndProj = props => {
           <div id="indRectangle">
             <Fade left>
               <div id="indProjUnderlying">
-                <a id="aWeb" href={proj.deploy}>
+                <Link id="aWeb" to={proj.deploy}>
                   {proj.title} Website
-                </a>
-                <a id="aProj" href={proj.github}>
+                </Link>
+                <Link id="aProj" to={proj.github}>
                   Click Here to visit {proj.title}'s Github
-                </a>
+                </Link>
 
                 <p id="projBio">{proj.bio}</p>
               </div>
