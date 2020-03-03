@@ -16,9 +16,8 @@ class About extends Component {
               </Link>
             </Fade>
           </div>
-
-          <div className="aboutSecond">
-            <Fade cascade left>
+          <Fade cascade left>
+            <div className="aboutSecond">
               <div>
                 I'm a front end and mobile developer currently working for Odega
                 Studios. My role here allows me to work with various designs and
@@ -40,8 +39,8 @@ class About extends Component {
                 incredibly fun! If I'm not desiging or coding something I'll be
                 messing around with music production or analyzing stocks!
               </div>
-            </Fade>
-          </div>
+            </div>
+          </Fade>
         </div>
       </div>
     );

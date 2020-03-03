@@ -94,7 +94,7 @@ ul {
 .navItem:hover {
   border-top: 4px solid rgb(0, 236, 59);
   border-bottom: 4px solid rgb(0, 236, 59);
-  padding: 6px 0;
+  padding: 0.6px 0;
   color: rgb(0, 236, 59);
 }
 
@@ -153,11 +153,11 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 40px;
+  font-size: 3vw;
 }
 
 #backArrow {
-  font-size: 40px;
+  font-size: 3vw;
   color: rgb(0, 236, 59);
 }
 .aboutSecond {
@@ -171,9 +171,8 @@ ul {
 }
 
 .aboutSecond div {
-  background-color: antiquewhite;
-  word-wrap: normal;
-  -ms-word-wrap: normal;
+  width: 40vw;
+  word-break: keep-all;
 }
 
 #projects {
@@ -190,7 +189,7 @@ ul {
 
 #projTitle {
   color: white;
-  font-size: 40px;
+  font-size: 2.2vw;
   display: flex;
   justify-content: center;
 }
@@ -224,7 +223,7 @@ ul {
 }
 
 #indProjImages {
-  margin: 10px;
+  /* margin: 12vw; */
   height: 100%;
   width: 100%;
   display: flex;
@@ -236,7 +235,7 @@ ul {
   height: 70vh;
   width: 80vh;
   object-fit: cover;
-  margin: 5px;
+  margin: 0.5vw;
 }
 #image2 {
   height: 70vh;
@@ -248,7 +247,7 @@ ul {
   color: white;
   display: flex;
   align-items: center;
-  padding-top: 60px;
+  padding-top: 2vw;
   padding-left: 60px;
   font-size: 24px;
   text-decoration: none;
