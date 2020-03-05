@@ -26,14 +26,14 @@ class About extends Component {
               <div>
                 I started learning computer science in highschool with a group
                 of friends before getting my B.S. at Manhattan College. My time
-                at college allowed me to work on personal projects while learing
+                at college allowed me to work on personal projects while learning
                 web and mobile development. After finishing my degree in 2019, I
                 jumped head first into the digital industry learning all I could
                 about the world of front end development.
               </div>
               <div>
                 Outside of work, I like to work on full stack web applications
-                using React for front end and Ruby on Rails for a backend. This
+                using React for a front end and Ruby on Rails for a backend. This
                 allows me play around with new technology and gives me a better
                 understanding of the digital industry as a whole. It's also
                 incredibly fun! If I'm not desiging or coding something I'll be
