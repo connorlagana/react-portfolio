@@ -22,7 +22,9 @@ const Intro = () => {
         </div>
       </div>
       <div id="rightIntro">
-        <img id="profPic" src={connor}></img>
+        <Fade>
+          <img id="profPic" src={connor}></img>
+        </Fade>
       </div>
     </div>
   );

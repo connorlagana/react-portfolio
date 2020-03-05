@@ -172,7 +172,7 @@ ul {
 
 .aboutSecond div {
   width: 40vw;
-  word-break: keep-all;
+  margin: 1vh;
 }
 
 #projects {
@@ -354,17 +354,16 @@ ul {
   }
 
   #bigIntro {
-    /* flex-direction: column; */
+    flex-direction: column;
   }
 
   #leftIntro {
     height: 50vh;
     width: 100vw;
-    /* background-color: red; */
   }
 
   #intro {
-    /* background-color: yellow; */
+    padding-top: 5vh;
   }
 
   #intro h1 {
@@ -380,6 +379,11 @@ ul {
   #rightIntro {
     height: 50vh;
     width: 100vw;
+  }
+
+  #rightIntro img {
+    width: 70vw;
+    height: 70vw;
   }
 
   .arrows {
