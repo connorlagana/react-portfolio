@@ -14,12 +14,12 @@ const IndProj = props => {
           <div id="indRectangle">
             <Fade left>
               <div id="indProjUnderlying">
-                <Link id="aWeb" to={proj.deploy}>
+                <a id="aWeb" href={proj.deploy}>
                   {proj.title} Website
-                </Link>
-                <Link id="aProj" to={proj.github}>
+                </a>
+                <a id="aProj" href={proj.github}>
                   Click Here to visit {proj.title}'s Github
-                </Link>
+                </a>
 
                 <p id="projBio">{proj.bio}</p>
               </div>

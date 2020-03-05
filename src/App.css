@@ -367,13 +367,15 @@ ul {
   }
 
   #intro h1 {
-    font-size: 4vw;
+    font-size: 8vw;
     padding: 0;
     margin: 0;
   }
 
   #intro h3 {
     text-align: center;
+    padding: 0;
+    margin: 0;
   }
 
   #rightIntro {
