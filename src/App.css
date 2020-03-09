@@ -447,4 +447,12 @@ ul {
   #projTitle {
     font-size: 4vw;
   }
+
+  #projectsTitle {
+    padding-top: 2vh;
+    padding-left: 3vw;
+  }
+  #backArrow {
+    font-size: 4vh;
+  }
 }
