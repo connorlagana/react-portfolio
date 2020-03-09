@@ -75,7 +75,7 @@ class Projects extends Component {
           image1: stockify1,
           image2: stockify2,
           bio:
-            "Sendit takes a finance;/stock API and displays the content using React. Other frameworks used in Sendit include Charts.js"
+            "Sendit takes a finance/stock market API and displays the content using React. Other frameworks used in Sendit include Charts.js"
         }
       ]
     };

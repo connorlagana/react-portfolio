@@ -437,5 +437,14 @@ ul {
   }
 
   #aWeb {
+    font-size: 2vw;
+  }
+
+  #aProj {
+    font-size: 2vw;
+  }
+
+  #projTitle {
+    font-size: 4vw;
   }
 }
