@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Arrows = () => {
   return (
     <div className="arrows">
-      <Fade>
+      <Fade right>
         <ul>
           <div id="begin">
             <Link to="/about">In the beginning</Link>

@@ -16,7 +16,7 @@ class About extends Component {
               </Link>
             </Fade>
           </div>
-          <Fade cascade left>
+          {/* <Fade cascade left> */}
             <div className="aboutSecond">
               <div>
                 I'm a front end and mobile developer currently working for Odega
@@ -40,7 +40,7 @@ class About extends Component {
                 messing around with music production or analyzing stocks!
               </div>
             </div>
-          </Fade>
+          {/* </Fade> */}
         </div>
       </div>
     );
