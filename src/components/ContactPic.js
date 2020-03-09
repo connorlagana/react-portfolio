@@ -26,9 +26,9 @@ class ContactPic extends Component {
       <div id="contactPics">
         {this.state.pics.map((pic, key) => (
           <div class="contactPic">
-            <Link to={pic.link}>
+            <a href={pic.link}>
               <img src={pic.image} class="contactPicImage" />
-            </Link>
+            </a>
           </div>
         ))}
       </div>
