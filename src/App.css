@@ -185,6 +185,10 @@ ul {
 #indProj {
   height: 100vh;
   width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 #projTitle {
@@ -198,16 +202,18 @@ ul {
   justify-content: center;
   flex-direction: row;
   align-items: center;
+  height: 70vh;
+  width: 80vw;
 }
 
 #indProjUnderlying {
-  width: 30vh;
+  width: 15vw;
   height: 70vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 }
 
 #aProj {
@@ -220,26 +226,19 @@ ul {
 #projBio {
   background-color: white;
   text-align: center;
-}
-
-#indProjImages {
-  /* margin: 12vw; */
-  height: 100%;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  margin-top: 1vh;
 }
 
 #image1 {
   height: 70vh;
-  width: 80vh;
+  width: 50vw;
   object-fit: cover;
-  margin: 0.5vw;
+  margin-left: 0.5vw;
+  margin-right: 0.5vw;
 }
 #image2 {
   height: 70vh;
-  width: 30vh;
+  width: 15vw;
   object-fit: cover;
 }
 
@@ -416,5 +415,27 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  #projBio {
+    font-size: 2vw;
+  }
+
+  #indRectangle {
+    width: 100vw;
+  }
+
+  #indProjUnderlying {
+    width: 25vw;
+  }
+
+  #image1 {
+    width: 50vw;
+  }
+  #image2 {
+    width: 25vw;
+  }
+
+  #aWeb {
   }
 }

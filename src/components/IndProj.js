@@ -20,8 +20,7 @@ const IndProj = props => {
                 <a id="aProj" href={proj.github}>
                   Click Here to visit {proj.title}'s Github
                 </a>
-
-                <p id="projBio">{proj.bio}</p>
+                <div id="projBio">{proj.bio}</div>
               </div>
             </Fade>
             <Zoom clear>
