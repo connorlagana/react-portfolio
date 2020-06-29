@@ -15,6 +15,8 @@ import tesla1 from "../images/ProjectImages/Tesla/tesla1.png";
 import tesla2 from "../images/ProjectImages/Tesla/tesla2.png";
 import stockify1 from "../images/ProjectImages/Stockify/stockify1.png";
 import stockify2 from "../images/ProjectImages/Stockify/stockify2.png";
+import mapit1 from "../images/ProjectImages/Mapit/mapit1.png";
+import mapit2 from "../images/ProjectImages/Mapit/mapit2.png";
 
 import IndProj from "./IndProj.js";
 
@@ -23,6 +25,15 @@ class Projects extends Component {
     super(props);
     this.state = {
       projects: [
+        {
+          title: "Map It!",
+          github: "https://github.com/connorlagana/SwiftUIMap",
+          deploy: "https://github.com/connorlagana/SwiftUIMap",
+          image1: mapit1,
+          image2: mapit2,
+          bio:
+            "Map It! is an iOS app made using Apple's MapKit and the Google Maps SDK."
+        },
         {
           title: "Tesla Remix",
           github: "https://github.com/connorlagana/TeslaPretend",
