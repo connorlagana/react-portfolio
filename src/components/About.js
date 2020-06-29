@@ -19,8 +19,7 @@ class About extends Component {
           {/* <Fade cascade left> */}
             <div className="aboutSecond">
               <div>
-                I'm a front end and mobile developer currently working for Odega
-                Studios. My role here allows me to work with various designs and
+                I'm a front end and iOS developer currently freelancing for multiple projects. My role as a freelancer allows me to work with various designs and
                 bring them to life with a creative process.
               </div>
               <div>
@@ -29,10 +28,10 @@ class About extends Component {
                 at college allowed me to work on personal projects while learning
                 web and mobile development. After finishing my degree in 2019, I
                 jumped head first into the digital industry learning all I could
-                about the world of front end development.
+                about the world of front end and iOS development.
               </div>
               <div>
-                Outside of work, I like to work on full stack web applications
+                Outside of freelancing, I like to work on full stack web applications
                 using React for a front end and Ruby on Rails for a backend. This
                 allows me play around with new technology and gives me a better
                 understanding of the digital industry as a whole. It's also
