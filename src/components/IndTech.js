@@ -25,63 +25,63 @@ class IndProj extends Component {
       techs: [
         {
           name: "JavaScript",
-          image: jsLogo
+          image: jsLogo,
         },
         {
           name: "Swift",
-          image: swiftLogo
+          image: swiftLogo,
         },
         {
           name: "HTML",
-          image: htmlLogo
+          image: htmlLogo,
         },
         {
           name: "CSS",
-          image: cssLogo
+          image: cssLogo,
         },
 
         {
           name: "React",
-          image: reactLogo
+          image: reactLogo,
         },
         {
           name: "React Native",
-          image: reactNativeLogo
+          image: reactNativeLogo,
         },
         {
           name: "Angular",
-          image: angularLogo
+          image: angularLogo,
         },
         {
           name: "Node.js",
-          image: nodeLogo
+          image: nodeLogo,
         },
 
         {
           name: "Python",
-          image: pythonLogo
+          image: pythonLogo,
         },
         {
           name: "Ruby",
-          image: rubyLogo
+          image: rubyLogo,
         },
         {
           name: "Ruby On Rails",
-          image: railsLogo
+          image: railsLogo,
         },
         {
           name: "Git",
-          image: gitLogo
+          image: gitLogo,
         },
         {
           name: "Github",
-          image: githubLogo
+          image: githubLogo,
         },
         {
           name: "JSON",
-          image: jsonLogo
-        }
-      ]
+          image: jsonLogo,
+        },
+      ],
     };
   }
   render() {
@@ -93,7 +93,7 @@ class IndProj extends Component {
               <h3>{tech.name}</h3>
             </Fade>
             <Fade>
-              <img src={tech.image} id="techLogo" />
+              <img src={tech.image} id="techLogo" alt="contact" />
             </Fade>
           </div>
         ))}

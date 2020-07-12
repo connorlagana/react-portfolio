@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import githubLogo from "../images/ContactPics/github.png";
 import linkedin from "../images/ContactPics/linkedin.png";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 class ContactPic extends Component {
   constructor(props) {
@@ -11,14 +11,14 @@ class ContactPic extends Component {
         {
           image: githubLogo,
           title: "Github",
-          link: "https://github.com/connorlagana"
+          link: "https://github.com/connorlagana",
         },
         {
           image: linkedin,
           title: "Linkedin",
-          link: "https://www.linkedin.com/in/connor-lagana/"
-        }
-      ]
+          link: "https://www.linkedin.com/in/connor-lagana/",
+        },
+      ],
     };
   }
   render() {
@@ -27,7 +27,7 @@ class ContactPic extends Component {
         {this.state.pics.map((pic, key) => (
           <div class="contactPic">
             <a href={pic.link}>
-              <img src={pic.image} class="contactPicImage" />
+              <img src={pic.image} class="contactPicImage" alt="contact" />
             </a>
           </div>
         ))}

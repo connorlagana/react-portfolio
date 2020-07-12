@@ -1,9 +1,9 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
 import Zoom from "react-reveal/Zoom";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
-const IndProj = props => {
+const IndProj = (props) => {
   return (
     <div id="projects">
       {props.projects.map((proj, key) => (
@@ -24,10 +24,10 @@ const IndProj = props => {
               </div>
             </Fade>
             <Zoom clear>
-              <img src={proj.image1} id="image1" />
+              <img src={proj.image1} id="image1" alt="Project" />
             </Zoom>
             <Fade right>
-              <img src={proj.image2} id="image2" />
+              <img src={proj.image2} id="image2" alt="Other" />
             </Fade>
           </div>
         </div>
