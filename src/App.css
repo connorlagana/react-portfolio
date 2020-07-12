@@ -75,7 +75,7 @@
   margin: 1vh;
   margin-top: 0;
   width: 100vw;
-  height: 5vh;
+  height: 8vh;
 }
 
 ul {
@@ -96,7 +96,7 @@ ul {
 .navItem:hover {
   border-top: 4px solid rgb(0, 236, 59);
   border-bottom: 4px solid rgb(0, 236, 59);
-  padding: 0.6px 0;
+  padding: 0.5vh 0;
   color: rgb(0, 236, 59);
 }
 
