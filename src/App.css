@@ -73,7 +73,9 @@
   align-items: center;
   z-index: 1;
   margin: 1vh;
+  margin-top: 0;
   width: 100vw;
+  height: 5vh;
 }
 
 ul {
