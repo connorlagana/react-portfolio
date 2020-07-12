@@ -303,6 +303,11 @@ ul {
   text-align: center;
   color: white;
   margin: 10px;
+  transition: 0.3s;
+}
+
+#indTech:hover {
+  color: rgb(0, 236, 59);
 }
 
 #techLogo {
@@ -312,8 +317,8 @@ ul {
   z-index: 10;
 }
 #techLogo:hover {
-  height: 200px;
-  width: 200px;
+  /* height: 200px;
+  width: 200px; */
 }
 
 #IndT {
