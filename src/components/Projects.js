@@ -17,6 +17,8 @@ import stockify1 from "../images/ProjectImages/Stockify/stockify1.png";
 import stockify2 from "../images/ProjectImages/Stockify/stockify2.png";
 import mapit1 from "../images/ProjectImages/Mapit/mapit1.png";
 import mapit2 from "../images/ProjectImages/Mapit/mapit2.png";
+import soundflex1 from "../images/ProjectImages/Soundflex/soundflex1.png";
+import soundflex2 from "../images/ProjectImages/Soundflex/soundflex2.png";
 
 import IndProj from "./IndProj.js";
 
@@ -26,13 +28,22 @@ class Projects extends Component {
     this.state = {
       projects: [
         {
+          title: "SoundFlex",
+          github: "https://github.com/connorlagana/sf_real",
+          deploy: "https://github.com/connorlagana/sf_real",
+          image1: soundflex1,
+          image2: soundflex2,
+          bio:
+            "SoundFlex lets users mash up their favorite songs into a 1-hour long mix!",
+        },
+        {
           title: "Map It!",
           github: "https://github.com/connorlagana/SwiftUIMap",
           deploy: "https://github.com/connorlagana/SwiftUIMap",
           image1: mapit1,
           image2: mapit2,
           bio:
-            "Map It! is an iOS app made using Apple's MapKit and the Google Maps SDK."
+            "Map It! is an iOS app made using Apple's MapKit and the Google Maps SDK.",
         },
         {
           title: "Tesla Remix",
@@ -41,7 +52,7 @@ class Projects extends Component {
           image1: tesla1,
           image2: tesla2,
           bio:
-            "My personal remake of Tesla's website. Using React as a frontend and Ruby on Rails as a backend, users are able to create an account and add customized vehicles to their account"
+            "My personal remake of Tesla's website. Using React as a frontend and Ruby on Rails as a backend, users are able to create an account and add customized vehicles to their account",
         },
         {
           title: "Foodstagram",
@@ -50,7 +61,7 @@ class Projects extends Component {
           image1: foodstagram1,
           image2: foodstagram2,
           bio:
-            "Foodstagram is a fullstack web app that I created using React for the front end and Node.js/Express for the back end."
+            "Foodstagram is a fullstack web app that I created using React for the front end and Node.js/Express for the back end.",
         },
         {
           title: "Keen's Steakhouse",
@@ -59,7 +70,7 @@ class Projects extends Component {
           image1: keens1,
           image2: keens2,
           bio:
-            "Instatag is a fullstack iOS app that I created using Swift and Google's Firebase."
+            "Instatag is a fullstack iOS app that I created using Swift and Google's Firebase.",
         },
         {
           title: "Sendit",
@@ -68,7 +79,7 @@ class Projects extends Component {
           image1: sendit1,
           image2: sendit2,
           bio:
-            "Sendit takes a finance;/stock API and displays the content using React. Other frameworks used in Sendit include Charts.js"
+            "Sendit takes a finance;/stock API and displays the content using React. Other frameworks used in Sendit include Charts.js",
         },
         {
           title: "Instatag",
@@ -77,7 +88,7 @@ class Projects extends Component {
           image1: instatag1,
           image2: instatag2,
           bio:
-            "Instatag is a fullstack iOS app that I created using Swift and Google's Firebase."
+            "Instatag is a fullstack iOS app that I created using Swift and Google's Firebase.",
         },
         {
           title: "Stockify",
@@ -86,9 +97,9 @@ class Projects extends Component {
           image1: stockify1,
           image2: stockify2,
           bio:
-            "Sendit takes a finance/stock market API and displays the content using React. Other frameworks used in Sendit include Charts.js"
-        }
-      ]
+            "Sendit takes a finance/stock market API and displays the content using React. Other frameworks used in Sendit include Charts.js",
+        },
+      ],
     };
   }
   render() {
