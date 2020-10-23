@@ -30,7 +30,7 @@ class Projects extends Component {
         {
           title: "SoundFlex",
           github: "https://github.com/connorlagana/sf_real",
-          deploy: "https://github.com/connorlagana/sf_real",
+          deploy: "https://soundflex.io",
           image1: soundflex1,
           image2: soundflex2,
           bio:
