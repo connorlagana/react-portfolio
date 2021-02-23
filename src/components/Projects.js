@@ -19,6 +19,8 @@ import mapit1 from "../images/ProjectImages/Mapit/mapit1.png";
 import mapit2 from "../images/ProjectImages/Mapit/mapit2.png";
 import soundflex1 from "../images/ProjectImages/Soundflex/soundflex1.png";
 import soundflex2 from "../images/ProjectImages/Soundflex/soundflex2.png";
+import hawaii1 from "../images/ProjectImages/HawaiiRadar/Hawaii1.png";
+import hawaii2 from "../images/ProjectImages/HawaiiRadar/Hawaii2.png";
 
 import IndProj from "./IndProj.js";
 
@@ -27,6 +29,15 @@ class Projects extends Component {
     super(props);
     this.state = {
       projects: [
+        {
+          title: "Hawaii Radar",
+          github: "https://github.com/connorlagana/hawaiiradar",
+          deploy: "https://apps.apple.com/bz/app/hawaii-radar/id1548343424#?platform=iphone",
+          image1: hawaii1,
+          image2: hawaii2,
+          bio:
+            "Before you head on over to the beach, make sure you check out our extensive beach safety data at Hawaii Radar!",
+        },
         {
           title: "SoundFlex",
           github: "https://github.com/connorlagana/sf_real",
